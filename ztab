@@ -18,7 +18,7 @@
 swap	lz4	0M		1024M		75		0		60
 
 # dir	alg	mem_limit	disk_size	target_dir	bind_dir
-#dir	lz4	0M		300M		/home/pi	/pi.bind
+#dir	lz4	0M		512M		/home/pi	/pi.bind
 
 # log	alg	mem_limit	disk_size	target_dir	bind_dir	oldlog_dir
-#log	lz4	0M		300M		/var/log	/log.bind	/opt/zram/oldlog
+#log	lz4	0M		512M		/var/log	/log.bind	/opt/zram/oldlog
